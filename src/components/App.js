@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ButtonCounter = () => {
+const App = () => {
   // Initializing counter state using useState hook
   const [count, setCount] = useState(0);
 
@@ -20,4 +20,4 @@ const ButtonCounter = () => {
   );
 };
 
-export default ButtonCounter;
+export default App;
